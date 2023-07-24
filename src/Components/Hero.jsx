@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="py-28 w-full" id="hero">
       <div className="container grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-16">
-        <article className=" flex flex-col gap-8">
+        <article className="order-2 lg:order-1 flex flex-col gap-8">
           <h1
             className="text-white text-5xl md:text-7xl font-kidGames tracking-wider"
             data-aos="fade-down"
@@ -42,7 +42,7 @@ const Hero = () => {
           data-aos="zoom-out"
           data-aos-duration="800"
           alt=""
-          className="lg:ml-auto"
+          className="lg:ml-auto order-1"
         />
       </div>
     </section>
