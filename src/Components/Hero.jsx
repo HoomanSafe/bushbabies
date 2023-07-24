@@ -1,5 +1,10 @@
 import React from "react";
 import threeD from "../assets/3d.png";
+import { Canvas } from "@react-three/fiber";
+import { motion } from "framer-motion-3d";
+import { OrbitControls } from "@react-three/drei";
+import ParallaxCard from './ParallaxCard'
+import TextModel from './TextModel'
 
 const Hero = () => {
   return (
@@ -25,7 +30,7 @@ const Hero = () => {
             <a href="https://t.me/RareHamster">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
-                  JOIN US ON TELEGRM
+                  JOIN US ON TELEGRAM
                 </div>
               </div>
             </a>
@@ -38,13 +43,38 @@ const Hero = () => {
             </a>
           </div>
         </article>
-        <img
-          src={threeD}
-          data-aos="zoom-out"
-          data-aos-duration="800"
-          alt=""
-          className="lg:ml-auto order-1"
-        />
+        
+        <div className="w-full h-[100vh] bg-black/10">
+        <Canvas
+          style={{
+            width: '100%',
+            height: '100%',
+          }}
+          camera={{
+            fov: 85,
+            far: 1000,
+            near: 0.1,
+          }}
+        >
+          <motion.group
+            animate={{
+              rotateY: [0, Math.PI * 2],
+            }}
+            transition={{
+              repeat: Infinity,
+              duration: 10,
+              ease: 'linear',
+            }}
+          >
+            <ParallaxCard />
+            <TextModel />
+          </motion.group>
+          <ambientLight color={'#ffffff'} intensity={0.3} />
+          <directionalLight color={'#fff0dd'} position={[0, -5, 10]} />
+          <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
+        </Canvas>
+
+        </div>
       </div>
     </section>
   );
