@@ -25,13 +25,16 @@ const About = () => {
             data-aos-duration="800"
             className=" text-white font-medium leading-10"
           >
-            Use rarity meme cards on your favorite DeFi racing game
-            “HamsterRace”. Our one-of-a-kind Rare Hamster rarity card consists
+            Use rarity meme cards on your favorite DeFi racing game "Hamster
+            Race"! <br /> Our one-of-a-kind “Rare Hamster” rarity card consists
             of an abstract canvas followed by a vibrant palette. Our 3d design
             was crafted this way so any user can spot even the slightest amount
             of detail from within the card. In fact, our designed background,
             hamsters and rarity card was made from the best designers in the
-            game!
+            game! <br />
+            <br />
+            This collection will consist of a total of 10 rarity cards to trade
+            and choose from.
           </p>
         </article>
         <img

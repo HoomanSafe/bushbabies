@@ -11,9 +11,10 @@ const Hero = () => {
             data-aos="fade-down"
             data-aos-duration="800"
           >
-            GET MONEY <br />
-            NOW PLAY <br />
-            FREE
+            UNIQUE <br />
+            <span className="text-emerald-300">RARITY</span>
+            <br />
+            CARDS
           </h1>
 
           <div

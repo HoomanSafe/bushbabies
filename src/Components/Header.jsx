@@ -7,23 +7,12 @@ function Header() {
         <a href="" className="" data-aos="fade-right" data-aos-duration="800">
           <div className="text-white text-3xl font-kidGames">RARE-HAMSTER</div>
         </a>
+
         <a
           href=""
           data-aos="fade-left"
           data-aos-duration="800"
-          className="hidden md:block hover:scale-90 transition"
-        >
-          <div className="w-[253px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
-            <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
-              BUY RARE HAMSTER
-            </div>
-          </div>
-        </a>
-        <a
-          href=""
-          data-aos="fade-left"
-          data-aos-duration="800"
-          className="md:hidden transition hover:scale-90"
+          className=" transition hover:scale-90"
         >
           <svg
             width="42"

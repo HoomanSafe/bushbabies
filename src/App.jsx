@@ -13,7 +13,7 @@ const App = () => {
   });
   return (
     <div className="min-h-screen w-full relative bg-black text-white font-Salutino">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <About />
       <Mics />
