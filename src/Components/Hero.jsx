@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-16">
         <article className="order-2 lg:order-1 flex flex-col gap-8">
           <h1
-            className="text-white text-5xl md:text-7xl font-kidGames tracking-wider"
+            className="text-white text-center lg:text-start text-5xl md:text-7xl font-kidGames tracking-wider"
             data-aos="fade-down"
             data-aos-duration="800"
           >
