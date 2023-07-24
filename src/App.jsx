@@ -3,6 +3,9 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Mics from "./Components/Mics";
+import Footer from "./Components/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   return (
@@ -11,6 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Mics />
+      <Footer />
     </div>
   );
 };
