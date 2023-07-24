@@ -10,4 +10,8 @@
     background: url(./assets/heroBg.png) center center no-repeat;
     background-size: 100% 100%;
   }
+  #mics {
+    background: url(./assets/token.png) center center no-repeat;
+    background-size: 100% 100%;
+  }
 }
