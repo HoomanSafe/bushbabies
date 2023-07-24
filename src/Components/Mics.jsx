@@ -4,13 +4,19 @@ const Mics = () => {
   return (
     <section className="py-16 w-full" id="mics">
       <div className="container grid justify-center items-center gap-16">
-        <div className="text-teal-300 text-4xl md:text-5xl text-center font-kidGames tracking-wide">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="800"
+          className="text-teal-300 text-4xl md:text-5xl text-center font-kidGames tracking-wide"
+        >
           {" "}
           OUR TOKENOMICS
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 justify-between items-center gap-8">
           <svg
+            data-aos="fade-left"
+            data-aos-duration="800"
             width="auto"
             height="347"
             viewBox="0 0 360 347"
@@ -47,6 +53,8 @@ const Mics = () => {
           </svg>
 
           <svg
+            data-aos="fade-up"
+            data-aos-duration="800"
             width="auto"
             height="305"
             viewBox="0 0 360 305"
@@ -94,6 +102,8 @@ const Mics = () => {
           </svg>
 
           <svg
+            data-aos="fade-right"
+            data-aos-duration="800"
             width="auto"
             height="347"
             viewBox="0 0 360 347"

@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <footer className="py-14 w-full">
       <div className="container flex flex-col gap-8">
-        <div className="w-full border p-10 rounded-xl border-teal-300 flex justify-center items-center text-center gap flex-col gap-8">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          className="w-full border p-10 rounded-xl border-teal-300 flex justify-center items-center text-center gap flex-col gap-8"
+        >
           <div className="text-white text-4xl md:text-6xl font-kidGames">
             JOIN OUR COMMUNITY
           </div>

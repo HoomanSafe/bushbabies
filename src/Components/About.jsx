@@ -6,13 +6,25 @@ const About = () => {
     <section className="py-16 w-full">
       <div className="container grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-16">
         <article className="flex flex-col gap-6">
-          <div className="text-white text-2xl font-kidGames leading-[33.60px] tracking-wide">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="800"
+            className="text-white text-2xl font-kidGames leading-[33.60px] tracking-wide"
+          >
             ABOUT US
           </div>
-          <div className=" text-teal-300 text-5xl font-kidGames tracking-wide">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className=" text-teal-300 text-5xl font-kidGames tracking-wide"
+          >
             RARE HAMSTER
           </div>
-          <p className=" text-white font-medium leading-10">
+          <p
+            data-aos="fade-left"
+            data-aos-duration="800"
+            className=" text-white font-medium leading-10"
+          >
             Pepe and Toad the memecoin Launched on the ethereum. Our mission is
             to provide a fun, community-driven investment opportunity that
             celebrates the power of memes and pop culture. With a vision to
@@ -24,7 +36,13 @@ const About = () => {
             memecoins.
           </p>
         </article>
-        <img src={ai} alt="" className="mx-auto lg:ml-auto" />
+        <img
+          src={ai}
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          alt=""
+          className="mx-auto lg:ml-auto"
+        />
       </div>
     </section>
   );
