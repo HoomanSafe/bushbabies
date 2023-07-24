@@ -13,7 +13,11 @@ const Footer = () => {
             JOIN OUR COMMUNITY
           </div>
           <div className="flex items-center gap-6">
-            <a href="" target="_blank" className="">
+            <a
+              href="https://twitter.com/RareHamsterERC"
+              target="_blank"
+              className=""
+            >
               <svg
                 width="40"
                 height="67"
@@ -48,7 +52,7 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="" target="_blank" className="">
+            <a href="https://t.me/RareHamster" target="_blank" className="">
               <svg
                 width="40"
                 height="40"
@@ -158,41 +162,7 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="" className="">
-              <svg
-                width="40"
-                height="42"
-                viewBox="0 0 68 67"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="0.835938"
-                  y="0.5"
-                  width="66.4444"
-                  height="66.4444"
-                  rx="5.11111"
-                  fill="url(#paint0_linear_1656_2496)"
-                />
-                <path
-                  d="M21.212 30.2915C20.545 30.0691 20.5386 29.7101 21.2248 29.4813L45.6137 21.3521C46.2897 21.1272 46.6768 21.5055 46.4877 22.1673L39.5187 46.555C39.327 47.231 38.9373 47.254 38.6511 46.6125L34.0588 36.2778L41.7254 26.0556L31.5032 33.7223L21.212 30.2915Z"
-                  fill="#05001F"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_1656_2496"
-                    x1="0.835937"
-                    y1="33.7222"
-                    x2="67.2804"
-                    y2="33.7222"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#3BFFC2" />
-                    <stop offset="1" stop-color="#36BBB6" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </a>
+
             <a href="" className="">
               <svg
                 width="40"

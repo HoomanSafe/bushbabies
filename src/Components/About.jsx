@@ -25,15 +25,13 @@ const About = () => {
             data-aos-duration="800"
             className=" text-white font-medium leading-10"
           >
-            Pepe and Toad the memecoin Launched on the ethereum. Our mission is
-            to provide a fun, community-driven investment opportunity that
-            celebrates the power of memes and pop culture. With a vision to
-            become the leading memecoin in the market, we believe Pepe and Toad
-            is the perfect addition to any investor’s portfolio. Join us on this
-            journey to revolutionize the world of memecoins. the market, we
-            believe Pepe and Toad is the perfect addition to any investor’s
-            portfolio. Join us on this journey to revolutionize the world of
-            memecoins.
+            Use rarity meme cards on your favorite DeFi racing game
+            “HamsterRace”. Our one-of-a-kind Rare Hamster rarity card consists
+            of an abstract canvas followed by a vibrant palette. Our 3d design
+            was crafted this way so any user can spot even the slightest amount
+            of detail from within the card. In fact, our designed background,
+            hamsters and rarity card was made from the best designers in the
+            game!
           </p>
         </article>
         <img

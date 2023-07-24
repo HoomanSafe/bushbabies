@@ -21,7 +21,7 @@ const Hero = () => {
             data-aos-duration="800"
             className="flex  items-center gap-8 flex-col md:flex-row"
           >
-            <a href="">
+            <a href="https://t.me/RareHamster">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
                   JOIN US ON TELEGRM
