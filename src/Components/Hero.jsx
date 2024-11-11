@@ -34,7 +34,7 @@ const Hero = () => {
                 </div>
               </div>
             </a>
-            <a href="">
+            <a href="https://pancakeswap.finance/?outputCurrency=0xdcbA83900158058B3959e4ABc58816FD790efe0C">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
                   BUY NOW ON PANCAKESWAP
