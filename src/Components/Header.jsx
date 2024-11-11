@@ -5,7 +5,7 @@ function Header() {
     <header className="py-4 w-full absolute top-0">
       <div className="container flex items-center justify-between">
         <a href="" className="" data-aos="fade-right" data-aos-duration="800">
-          <div className="text-white text-3xl font-kidGames">RARE-HAMSTER</div>
+          <div className="text-white text-3xl font-kidGames">BUSH-BABIES</div>
         </a>
 
         <a
