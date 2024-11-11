@@ -4,7 +4,7 @@ import { TextureLoader } from 'three';
 import { motion } from 'framer-motion-3d';
 
 function ParallaxCard() {
-    const cardFace = useLoader(TextureLoader, '/card-nobg.png')
+    const cardFace = useLoader(TextureLoader, '/logo2.png')
   return (
       <motion.mesh>
         <boxGeometry attach={'geometry'} args={[3.5, 4, 0.001]} />
