@@ -17,7 +17,7 @@ const Hero = () => {
             data-aos-duration="800"
           >
             UNIQUE <br />
-            <span className="text-emerald-300">TheBush</span>
+            <span className="text-emerald-300">THEBUSH</span>
             <br />
             BABIES
           </h1>
@@ -37,7 +37,7 @@ const Hero = () => {
             <a href="">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
-                  BUY NOW ON pancakeswap
+                  BUY NOW ON PANCAKESWAP
                 </div>
               </div>
             </a>
