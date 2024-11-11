@@ -35,7 +35,7 @@ function TextModel() {
       position={[0, -1.7, 1]}
       ref={textMesh}
     >
-      <textGeometry attach='geometry'  args={['Rare Hamster', textOptions]} />
+      <textGeometry attach='geometry'  args={['Bush Babies', textOptions]} />
 
       <meshStandardMaterial
         color={'#ffffff'}
