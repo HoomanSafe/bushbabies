@@ -1,5 +1,5 @@
 import React from "react";
-import threeD from "../assets/3d.png";
+import threeD from "../assets/logo2.png";
 import { Canvas } from "@react-three/fiber";
 import { motion } from "framer-motion-3d";
 import { OrbitControls } from "@react-three/drei";
@@ -17,9 +17,9 @@ const Hero = () => {
             data-aos-duration="800"
           >
             UNIQUE <br />
-            <span className="text-emerald-300">RARITY</span>
+            <span className="text-emerald-300">TheBush</span>
             <br />
-            CARDS
+            BABIES
           </h1>
 
           <div
@@ -27,7 +27,7 @@ const Hero = () => {
             data-aos-duration="800"
             className="flex  items-center gap-8 flex-col md:flex-row"
           >
-            <a href="https://t.me/RareHamster">
+            <a href="https://t.me/Bush_Babies">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
                   JOIN US ON TELEGRAM
@@ -37,7 +37,7 @@ const Hero = () => {
             <a href="">
               <div className="w-[261px] h-[54px] px-8 py-4 bg-gradient-to-r from-teal-300 to-teal-400 rounded shadow justify-center items-center gap-2.5 inline-flex">
                 <div className="text-slate-950 text-base font-kidGames leading-snug tracking-tight">
-                  BUY NOW ON UNISWAP
+                  BUY NOW ON pancakeswap
                 </div>
               </div>
             </a>
