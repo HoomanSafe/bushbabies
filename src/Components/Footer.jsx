@@ -221,7 +221,7 @@ const Footer = () => {
           </div>
         </div>
         <h1 className="text-white capitalize text-center text-xl font-medium">
-          Copyright © {new Date().getFullYear()} Rare-Hamster. All Rights
+          Copyright © {new Date().getFullYear()} Bush-Babies. All Rights
           Reserved.
         </h1>
       </div>
