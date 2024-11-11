@@ -163,7 +163,7 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a href="" className="">
+            <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x77c9010f92d77c3cce54502ec6cca66ea4f3cb14?t=1731319227685" className="">
               <svg
                 width="40"
                 height="40"
