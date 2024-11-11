@@ -1,5 +1,5 @@
 import React from "react";
-import ai from "../assets/ai.png";
+import ai from "../assets/logo1.png";
 
 const About = () => {
   return (
@@ -18,23 +18,21 @@ const About = () => {
             data-aos-duration="800"
             className=" text-teal-300 text-5xl font-kidGames tracking-wide"
           >
-            RARE HAMSTER
+            BUSH BABIES
           </div>
           <p
             data-aos="fade-left"
             data-aos-duration="800"
             className=" text-white font-medium leading-10"
           >
-            Use rarity meme cards on your favorite DeFi racing game "Hamster
-            Race"! <br /> Our one-of-a-kind “Rare Hamster” rarity card consists
-            of an abstract canvas followed by a vibrant palette. Our 3d design
-            was crafted this way so any user can spot even the slightest amount
-            of detail from within the card. In fact, our designed background,
-            hamsters and rarity card was made from the best designers in the
-            game! <br />
+            A Bush Baby is a small furry monkey-like animal that sleeps all day and plays all night.
+            <br /> 
+            
+            Our The Bush Babies are native to the sub-Saharan region of Africa where we, as a team, are based.
             <br />
-            This collection will consist of a total of 10 rarity cards to trade
-            and choose from.
+            <br />
+            They live in trees, have infrared vision, incredible hearing, long tails, strong limbs and an unmistakable cry.
+
           </p>
         </article>
         <img
